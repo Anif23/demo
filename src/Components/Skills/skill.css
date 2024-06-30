@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.Skills{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.Skills__Container > h1 {
+  
+    color:white;
+    font-size: 25px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+.Skills__ContentLeft{
+    flex: 0.4;
+    display:flex ;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.Skills__ContentRight{
+    flex: 0.6;
+    color: white;
+    align-items: center;
+   max-width: 500px;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 35px;
+}
+
+.Skills__ContentSlider1 >h2 , .Skills__ContentSlider2 >h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: darkorange;
+}
+
+.Skills_sliderF1 > span > .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(182, 60, 30);
+}
+.Skills_sliderF2 > span > .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(223, 187, 26);
+}
+.Skills_sliderF3 > span > .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(221, 140, 150);
+}
+.Skills_sliderF4 > span > .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(105, 13, 90);
+}
+
+.Skills_sliderB1 > span > .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(30, 58, 182);
+}
+.Skills_sliderB2 > span > .MuiLinearProgress-barColorPrimary {
+    background-color: rgb(9, 132, 32);
+}
+
+
+
